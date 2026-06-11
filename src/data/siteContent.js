@@ -54,6 +54,7 @@ export const content = {
         { id: 'gemstone', label: 'Gemstones' },
         { id: 'why', label: 'Why Us' },
         { id: 'faq', label: 'FAQ' },
+        { id: 'pricing', label: 'Booking' },
         { id: 'contact', label: 'Contact' },
       ],
       book: 'Book Consultation',
@@ -69,7 +70,7 @@ export const content = {
     },
 
     hero: {
-      eyebrow: 'Pondicherry • Established in Tradition',
+      eyebrow: 'Established in Tradition',
       titleTa: 'நந்தீஸ்வர் ஆன்மீக ஜோதிட ஆராய்ச்சி மையம்',
       titleEn: 'Sri Nandeeswarar Astrology Centre',
       subtitle: 'Ancient Wisdom • Spiritual Guidance • Divine Healing',
@@ -271,6 +272,19 @@ export const content = {
       rights: 'All rights reserved.',
       built: 'Crafted with devotion.',
     },
+    pricing: {
+      eyebrow: 'Pricing & Booking',
+      title: 'Simple, transparent pricing',
+      subtitle: 'Scan the QR code to pay, and book your consultation in a few simple steps.',
+      qrLabel: 'Payment QR Code',
+      qrHelp: 'Scan this QR code using any UPI app (GPay, PhonePe, Paytm, BHIM, etc.) to complete payment. After paying, click the WhatsApp button to send your receipt and details.',
+      submit: 'Confirm on WhatsApp',
+      items: [
+        { name: 'Horoscope Checking', price: '100', desc: 'Detailed horoscope checking and query answering.' },
+        { name: 'Marriage Prediction', price: '250', desc: 'Porutham analysis and marriage compatibility matching.' },
+        { name: 'Full Report', price: '1500', desc: 'Complete life report covering major predictions and remedies.' },
+      ],
+    },
   },
 
   // =========================================================================
@@ -289,6 +303,7 @@ export const content = {
         { id: 'gemstone', label: 'ரத்தினங்கள்' },
         { id: 'why', label: 'ஏன் நாங்கள்' },
         { id: 'faq', label: 'கேள்விகள்' },
+        { id: 'pricing', label: 'முன்பதிவு' },
         { id: 'contact', label: 'தொடர்பு' },
       ],
       book: 'ஆலோசனை பதிவு',
@@ -506,6 +521,19 @@ export const content = {
       reach: 'எங்களை அணுகவும்',
       rights: 'அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.',
       built: 'பக்தியுடன் உருவாக்கப்பட்டது.',
+    },
+    pricing: {
+      eyebrow: 'கட்டணம் & முன்பதிவு',
+      title: 'எளிமையான, வெளிப்படையான கட்டணங்கள்',
+      subtitle: 'QR குறியீட்டை ஸ்கேன் செய்து பணம் செலுத்தி, உங்கள் ஆலோசனையை உடனடியாக முன்பதிவு செய்யவும்.',
+      qrLabel: 'கட்டண QR குறியீடு',
+      qrHelp: 'பணம் செலுத்த எந்தவொரு UPI செயலியையும் (GPay, PhonePe, Paytm, BHIM) பயன்படுத்தி இந்த QR குறியீட்டை ஸ்கேன் செய்யவும். கட்டணம் செலுத்திய பின், வாட்ஸ்அப் பட்டனை கிளிக் செய்து உங்கள் ரசீது விவரங்களை அனுப்பவும்.',
+      submit: 'வாட்ஸ்அப்பில் உறுதிசெய்யவும்',
+      items: [
+        { name: 'ஜாதகம் பார்க்க', price: '100', desc: 'ஜாதக கட்டம் மற்றும் கேள்விகளுக்கான விரிவான ஆய்வு.' },
+        { name: 'திருமண பொருத்தம்', price: '250', desc: 'பொருத்தம் மற்றும் திருமண வாழ்க்கை கணிப்புகள்.' },
+        { name: 'முழு ஜாதக அறிக்கை', price: '1500', desc: 'பரிகாரங்கள் மற்றும் முக்கிய கணிப்புகள் அடங்கிய முழுமையான ஜாதக அறிக்கை.' },
+      ],
     },
   },
 }

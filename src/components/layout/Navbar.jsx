@@ -7,7 +7,7 @@ import { Menu } from '../../assets/icons'
 import Button from '../ui/Button'
 import MobileMenu from './MobileMenu'
 
-const SECTION_IDS = ['home', 'about', 'services', 'healing', 'gemstone', 'why', 'faq', 'contact']
+const SECTION_IDS = ['home', 'about', 'services', 'healing', 'gemstone', 'why', 'faq', 'pricing', 'contact']
 
 export default function Navbar() {
   const { t, config } = useLanguage()

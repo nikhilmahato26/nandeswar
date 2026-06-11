@@ -7,6 +7,7 @@ import Gemstone from '../components/sections/Gemstone'
 import WhyChooseUs from '../components/sections/WhyChooseUs'
 import Testimonials from '../components/sections/Testimonials'
 import FAQ from '../components/sections/FAQ'
+import Pricing from '../components/sections/Pricing'
 import CTA from '../components/sections/CTA'
 import Contact from '../components/sections/Contact'
 
@@ -22,6 +23,7 @@ export default function Home() {
       <WhyChooseUs />
       <Testimonials />
       <FAQ />
+      <Pricing />
       <CTA />
       <Contact />
     </>
