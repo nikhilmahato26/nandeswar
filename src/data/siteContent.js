@@ -319,7 +319,7 @@ export const content = {
     },
 
     hero: {
-      eyebrow: 'புதுச்சேரி • பாரம்பரியத்தில் நிலைபெற்றது',
+      eyebrow: 'பாரம்பரியத்தில் நிலைபெற்றது',
       titleTa: 'நந்தீஸ்வர் ஆன்மீக ஜோதிட ஆராய்ச்சி மையம்',
       titleEn: 'Sri Nandeeswarar Astrology Centre',
       subtitle: 'பண்டைய ஞானம் • ஆன்மீக வழிகாட்டல் • தெய்வீக சிகிச்சை',
