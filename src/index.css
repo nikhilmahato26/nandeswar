@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-sacred-white text-temple-dark font-sans antialiased;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    @apply bg-gold/30 text-temple-dark;
+  }
+}
+
+@layer components {
+  /* Glassmorphism surfaces */
+  .glass {
+    @apply bg-white/55 backdrop-blur-xl border border-white/60;
+  }
+  .glass-dark {
+    background: rgba(6, 59, 40, 0.45);
+    @apply backdrop-blur-xl border border-white/10;
+  }
+
+  /* Gold hairline divider used as a sacred separator */
+  .gold-rule {
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(216, 176, 76, 0.65),
+      transparent
+    );
+  }
+
+  /* Shimmering gold text used sparingly on key headings */
+  .gold-text {
+    background: linear-gradient(100deg, #b68f30, #e7c879, #d8b04c, #e7c879, #b68f30);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @apply animate-shimmer;
+  }
+
+  /* Section vertical rhythm */
+  .section-pad {
+    @apply py-20 md:py-28;
+  }
+  .container-x {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-12;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  /* Faint sacred-geometry grid behind dark sections */
+  .bg-yantra-grid {
+    background-image: radial-gradient(rgba(216, 176, 76, 0.10) 1px, transparent 1px);
+    background-size: 26px 26px;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #eaf3e6;
+}
+::-webkit-scrollbar-thumb {
+  background: #0b5d3b;
+  border-radius: 9999px;
+  border: 2px solid #eaf3e6;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #063b28;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
